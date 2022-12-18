@@ -153,7 +153,7 @@ text-align: center;
     .header__list--vertical {
         transform: translate(-50%, -70%);
         top: 35%;
-        margin-top: 65px;
+        margin-top: 150px;
     }
     .header__list-item {
         margin-bottom: 45px;
