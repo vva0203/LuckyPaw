@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" >
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <title>Lucky paw</title>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=2655f9c2-08d0-4846-b66e-16546416885b&lang=ru_RU">
+	</script>
+</head>
+<body>
+    <div class="wrapper main-page-wrapper">
+            <header class="header">
+                <div class="container">
+                    <a href="" class="hamburger">
+                        <span class="hamburger__plank"></span>
+                        <span class="hamburger__plank"></span>
+                        <span class="hamburger__plank"></span>
+                    </a>
+                <div class="header__logo">
+                    <div class="header__logo-img"><a href="index.html"> <img src="img/logo.svg"></a></div>
+                </div>
+                <nav class="header__nav header__nav--vertical">
+                    <ul class="header__list header__list--vertical">
+                        <li class="header__list-item"><a href="" class="header__nav-link">Главная</a></li>
+                        <li class="header__list-item"><a href="catalog.html" class="header__nav-link">Каталог</a></li>
+                        <li class="header__list-item"><a href="" class="header__nav-link">Оплата</a></li>
+                        <li class="header__list-item"><a href="" class="header__nav-link">Доставка</a></li>
+                        <li class="header__list-item"><a href="" class="header__nav-link header__nav-link--vertical">Корзина</a></li>
+                        <li class="header__list-item"><a href="" class="header__nav-link header__nav-link--vertical">Личный кабинет</a></li>
+                        <li class="header__list-item header__list-item--vertical"><a href="feedback.html" class="header__nav-link header__nav-link--vertical">Обратная связь</a></li>
+                    <li class="header__list-item header__list-item--vertical"><a href="contacts.html" class="header__nav-link header__nav-link--vertical">Адреса магазинов</a></li>
+                    </ul>
+                
+                </nav>
+                <div class="header__logo-icon">
+                    <a href="index.html"><img src="img/lucky_paw1.png" class="header__logo-icon-img"></a>
+                </div>
+                <div class="header__icons">
+                    <div class="header__icon"><a href=""><svg class="header__icon-like">
+                        <use xlink:href="sprite.svg#like"></use>
+                    </svg></a></div>
+                    <div class="header__icon"><a href=""><svg class="header__icon-cart"><use xlink:href="sprite.svg#cart"></use></svg></a></div>
+                    <div class="header__icon"><a href=""><svg class="header__icon-user"><use xlink:href="sprite.svg#person"></use></svg></a></div>
+                </div>
+                </div>
+            </header>
+        <main>
+            <section class="address">
+                <div class="container">
+                    <h1 class="address__title">Магазины</h1>
+                    <div id="map" class="address__map"></div>
+                    <div class="address__store-addresses">
+                        <ul class="address__list-addresses">
+                            <li class="address__list-address">
+                                <img src="http://dummyimage.com/100x69" class="address__list-img">
+                                <address class="address__list-addres">4-я и 5-я Линия В.О. д. 50</address>
+                                <span class="address__list-schedule">Ежедневно с 10:00 до 22:00</span>
+                                <span class="address__list-telephone"><a href="tel:8(800)5553535" class="address__list-telephone-link">8(800)555 35 35</a></span>
+                            </li>
+                            <li class="address__list-address"><img src="http://dummyimage.com/100x69" class="address__list-img">
+                                <address class="address__list-addres">Малый просп. П.С. д. 20</address>
+                                <span class="address__list-schedule">Ежедневно с 10:00 до 22:00</span>
+                                <span class="address__list-telephone"><a href="tel:8(800)5553535" class="address__list-telephone-link">8(800)555 35 35</a></span>
+                            </li>
+                            <li class="address__list-address">
+                                <img src="http://dummyimage.com/100x69" class="address__list-img">
+                                <address class="address__list-addres">Невский проспект д. 12</address>
+                                <span class="address__list-schedule">Ежедневно с 10:00 до 22:00</span>
+                                <span class="address__list-telephone"><a href="tel:8(800)5553535" class="address__list-telephone-link">8(800)555 35 35</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+            <div class="footer__nav">
+                <h3 class="footer__title">Покупателям</h3>
+                <div class="footer__nav-navigation">
+                    <ul>
+                        <li><a href="" class="footer__nav-link">Главная</a></li>
+                         <li><a href="" class="footer__nav-link">Каталог</a></li>
+                         <li><a href="" class="footer__nav-link">Оплата</a></li>
+                         <li><a href="" class="footer__nav-link">Доставка</a></li>
+                         <li><a href="feedback.html" class="footer__nav-link">Обратная связь</a></li>
+                         <li><a href="contacts.html" class="footer__nav-link">Адреса магазинов</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__catalog">
+                <h3 class="footer__title">Каталог</h3>
+                <div class="footer__catalog-categories">
+                    <ul>
+                        <li class="footer__catalog-category"><a href="" class="footer__catalog-link">Для кошек</a></li>
+                        <li class="footer__catalog-category"><a href="" class="footer__catalog-link">Для собак</a></li>
+                        <li class="footer__catalog-category"><a href="" class="footer__catalog-link">Ветаптека</a></li>
+                        <li class="footer__catalog-category"><a href="" class="footer__catalog-link">Для птиц</a></li>
+                        <li class="footer__catalog-category"><a href="" class="footer__catalog-link">Для грызунов</a></li>
+                        <li class="footer__catalog-category"><a href="" class="footer__catalog-link">Аквариумистика</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__follow">
+                <h3 class="footer__title">Следуй за нами</h3>
+                <div class="footer__icons">
+                    <a class="footer__icon"><svg class="footer__icon-image youtube">
+                        <use xlink:href="sprite.svg#youtube"></use>
+                    </svg></a>
+                    <a class="footer__icon second"><svg class="footer__icon-image vk">
+                        <use xlink:href="sprite.svg#vk"></use>
+                    </svg></a>
+                    <a class="footer__icon third"><svg class="footer__icon-image telegram">
+                        <use xlink:href="sprite.svg#telegram"></use>
+                    </svg></a>
+                </div>
+            </div>
+            <div class="footer__questions">
+                <h3 class="footer__title">Контакты</h3>
+            <div class="footer__questions-contacts">
+                <address class="footer__contact-address">Адрес: Санкт-Петербург</address>
+                <div class="footer__contact-telephone">Тел. <a href="tel:8(800)5553535" class="footer__contact-telephone-link">8(800)555 35 35</a></div>
+                <div class="footer__contact-email">E-mail: <a href="mailto:info@luckypaw.ru" class="footer__contact-email-link">info@luckypaw.ru</a></div>
+            </div>
+            <div class="footer__questions-subscribe">
+                <h3 class="footer__title title-subscribe">Подпишись на рассылку</h3>
+                <div class="footer__subscribe">
+                <form method="post" action="" class="footer__subscribe-form">
+                    <input type="email" placeholder="Email" class="footer__email-form">
+                    <br>
+                    <button type="submit" class="footer__subscribe-button">Подписаться</button>
+                </form>
+                </div>
+            </div>
+            </div>
+            </div>
+        </footer>
+    </div>
+	<script src="script.js"></script>
+    <script src="hamburger.js"></script>
+</body>
+</html>

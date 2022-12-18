@@ -1,0 +1,27 @@
+.list {
+    display: flex;
+    justify-content: space-around;
+}
+.brands__list {
+    margin-top: 60px;
+}
+@media screen and (max-width: 768px) {
+    .list {
+        flex-wrap: wrap;
+        max-width: 605px;
+    }
+    .list__brand-img{
+        width: 202px;
+    }
+    .brand {
+        margin-bottom: 31px;
+    }
+    .brands {
+        margin-bottom: 35px;
+    }
+}
+@media screen and (max-width:480px) {
+    .brands__list {
+        margin-top: 20px;
+    }
+}

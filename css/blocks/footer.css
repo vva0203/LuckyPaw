@@ -1,0 +1,153 @@
+footer {
+    background: #10C65A;
+    border-radius: 30px 30px 0 0;
+}
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__nav {
+    margin-top: 60px;
+}
+.footer__nav-navigation {
+    margin-top: 30px;
+}
+.footer__nav-navigation ul li {
+    margin-bottom: 15px;
+}
+.footer__nav-link {
+    font-size: 20px;
+    color: #BCFFBB;
+    text-decoration: none;
+}
+.footer__catalog {
+    margin-top: 60px;
+}
+.footer__catalog-categories {
+    margin-top: 30px;
+}
+.footer__catalog-category {
+    margin-bottom: 15px;
+}
+.footer__catalog-link {
+    font-size: 20px;
+    color: #BCFFBB;
+    text-decoration: none;
+}
+.footer__follow {
+    margin-top: 60px;
+}
+.footer__icons {
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+    color: white;
+    fill: white;
+}
+.second, .third{
+ margin-left: 50px;
+}
+.footer__icon-image {
+    width: 60px;
+    height: 60px;
+}
+.footer__questions {
+    margin-top: 60px;
+}
+.footer__questions-subscribe {
+    margin-top: 72px;
+}
+.footer__questions-contacts {
+    margin-top: 30px;
+    color: #BCFFBB;
+    font-size: 20px;
+}
+.footer__contact-address {
+    font-style: normal;
+    margin-bottom: 15px;
+}
+.footer__contact-telephone {
+    margin-bottom: 15px;
+}
+.footer__contact-telephone-link {
+    text-decoration: none;
+    color: #BCFFBB;
+}
+.footer__contact-email-link{
+    text-decoration: none;
+    color: #BCFFBB;
+}
+.footer__subscribe-form {
+    margin-top: 44px;
+}
+.footer__email-form {
+    margin-bottom: 12px;
+}
+.footer__subscribe-button {
+    width: 270px;
+    height: 51px;
+    border-radius: 15px;
+    color: white;
+    background: #FFA440;
+    border: 0;
+    transition: 0.5s;
+}
+.footer__subscribe-button:hover {
+    background-color: #fcb4e6;
+}
+.footer__email-form {
+    width: 270px;
+    height: 51px;
+    padding-left: 15px;
+    border-radius: 15px;
+    border: 0px;
+}
+.footer__email-form:focus {
+    border: 0;
+    outline: none;
+}
+@media screen and (max-width:768px) {
+    .footer__nav,.footer__catalog,.footer__questions-subscribe  {
+        display: none;
+    }
+    .footer__icon-image {
+        width: 35px;
+        height: 35px;
+    }
+    .footer__questions-contacts {
+        font-size: 13px;
+        margin-top: 12px;
+
+    }
+    .footer__follow {
+        margin-top: 30px;
+    }
+    .footer__questions {
+        margin-top: 30px;
+    }
+    .second, .third {
+        margin-left: 30px;
+    }
+    .footer__contact-address, .footer__contact-telephone {
+        margin-bottom: 10px;
+    }
+
+}
+@media screen and (max-width:480px) {
+    .footer .container {
+        justify-content: center;
+    }
+    .footer__questions {
+        display: none;
+    }
+    .footer__icon-image{
+        width: 30px;
+        height: 30px;
+    }
+    .footer__follow {
+        margin-top: 15px;
+    }
+    .footer__icons {
+        margin-top: 15px;
+    }
+}

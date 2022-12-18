@@ -1,0 +1,118 @@
+.modal__container {
+    position: fixed;
+    left: 0;
+    top:0;
+    display: none;
+    padding: 40px;
+    pointer-events: none;
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+    justify-content: center;
+    align-items: center;
+}
+.modal__content {
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    max-width: 520px;
+    max-height: 420px;
+    background-color: #10C65A;
+    position: relative;
+    z-index: 999;
+    border-radius: 30px;
+}
+.modal__content-discount {
+    display: flex;
+    align-items: center;
+}
+.modal__content-percent {
+    color: #BCFFBB;
+    font-size: 70px;
+    font-family: 'Jua';
+    margin-left: 5px;
+}
+.modal__content-text {
+    color: #BCFFBB;
+    font-size: 30px
+}
+.modal__content-gift {
+    width: 100px;
+    height: 100px;
+}
+.modal__content-gift-img {
+    width: 100px;
+    height: 100px;
+}
+.modal__content-promo {
+    font-size: 30px;
+    color: #BCFFBB;
+}
+.modal__content-promocode {
+    width: 315px;
+    height: 72px;
+    background-color: #ffa440;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Jua';
+    padding-top: 15px;
+    margin-top: 20px;
+}
+.modal__close {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    cursor: pointer;
+}
+.is-open {
+    display: flex;
+    pointer-events: all;
+    opacity: 1;
+}
+.modal__background {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: black;
+    opacity: 0.3;
+}
+@media screen and (max-width: 480px) {
+    .modal__content {
+        max-width: 360px;
+        max-height: 300px;
+    }
+    .modal__content-percent {
+        font-size: 42px;
+    }
+    .modal__content-text {
+        font-size: 16px;
+    }
+    .modal__close {
+        width: 24px;
+        height: 20px;
+        top: 20px;
+    }
+    .modal__content-gift-img, .modal__content-gift {
+        width: 70px;
+        height: 70px;
+    }
+    .modal__content-promo {
+        font-size: 22px
+    }
+    .modal__content-promocode {
+        width: 220px;
+        height: 50px;
+        font-size: 32px;
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+    .modal__close-img {
+        width: 27px;
+        height: 24px;
+    }
+}

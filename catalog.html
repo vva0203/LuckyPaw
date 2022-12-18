@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <title>Lucky paw</title>
+</head>
+<body>
+    <div class="wrapper">
+            <header class="header">
+                <div class="container">
+                    <a href="" class="hamburger">
+                        <span class="hamburger__plank"></span>
+                        <span class="hamburger__plank"></span>
+                        <span class="hamburger__plank"></span>
+                    </a>
+                <div class="header__logo">
+                    <div class="header__logo-img"><a href="index.html"> <img src="img/logo.svg"></a></div>
+                </div>
+                <nav class="header__nav header__nav--vertical">
+                    <ul class="header__list header__list--vertical">
+                        <li class="header__list-item"><a href="" class="header__nav-link">Главная</a></li>
+                        <li class="header__list-item"><a href="catalog.html" class="header__nav-link">Каталог</a></li>
+                        <li class="header__list-item"><a href="" class="header__nav-link">Оплата</a></li>
+                        <li class="header__list-item"><a href="" class="header__nav-link">Доставка</a></li>
+                        <li class="header__list-item"><a href="" class="header__nav-link header__nav-link--vertical">Корзина</a></li>
+                        <li class="header__list-item"><a href="" class="header__nav-link header__nav-link--vertical">Личный кабинет</a></li>
+                        <li class="header__list-item header__list-item--vertical"><a href="feedback.html" class="header__nav-link header__nav-link--vertical">Обратная связь</a></li>
+                    <li class="header__list-item header__list-item--vertical"><a href="contacts.html" class="header__nav-link header__nav-link--vertical">Адреса магазинов</a></li>
+                    </ul>
+                
+                </nav>
+                <div class="header__logo-icon">
+                    <a href="index.html"><img src="img/lucky_paw1.png" class="header__logo-icon-img"></a>
+                </div>
+                <div class="header__icons">
+                    <div class="header__icon"><a href=""><svg class="header__icon-like">
+                        <use xlink:href="sprite.svg#like"></use>
+                    </svg></a></div>
+                    <div class="header__icon"><a href=""><svg class="header__icon-cart"><use xlink:href="sprite.svg#cart"></use></svg></a></div>
+                    <div class="header__icon"><a href=""><svg class="header__icon-user"><use xlink:href="sprite.svg#person"></use></svg></a></div>
+                </div>
+                </div>
+            </header>
+        <main>
+            <section class="catalog">
+                <div class="container">
+                <h1 class="catalog__title">Каталог</h1>
+                <div class="filter--vertical">
+                    <img class="filter__img--vertical" src="img/filter.svg">
+                    <span class="filter__text--vertical">фильтр</span>
+                </div>
+                <div class="catalog__products-filter">
+                    <div class="catalog__filter">
+                        <ul class="filter">
+                        <li class="catalog__filter-category">корм для собак<img src="img/strelka.svg"></li><br>
+                        <li class="catalog__filter-category">Средства от блох, клещей и гельминтов для собак<img src="img/strelka.svg"></li><br>
+                        <li class="catalog__filter-category">Лакомства для собак<img src="img/strelka.svg"></li><br>
+                        <li class="catalog__filter-category">Лежаки и домики для собак<img src="img/strelka.svg"></li><br>
+                        <li class="catalog__filter-category">Амуниция и аксессуары для собак<img src="img/strelka.svg"></li><br>
+                        <li class="catalog__filter-category">Миски, кормушки, поилки для собак<img src="img/strelka.svg"></li><br>
+                        <li class="catalog__filter-category">Сумки, переноски и путешествия для собак<img src="img/strelka.svg"></li><br>
+                        <li class="catalog__filter-category">Одежда, обувь и аксессуары для собак<img src="img/strelka.svg"></li><br>
+                        <li class="catalog__filter-category">Игрушки для собак<img src="img/strelka.svg"></li><br>
+                        <li class="catalog__filter-category">Умные товары для собак<img src="img/strelka.svg"></li><br>
+                        <li class="catalog__filter-category">Груминг для собак<img src="img/strelka.svg"></li><br>
+                        <li class="catalog__filter-category">Клетки, вольеры, двери для собак<img src="img/strelka.svg"></li>
+                    </ul>
+                    </div>
+                    <div class="catalog__products">
+                    <div class="catalog__product">
+                        <img src="img/Rectangle 14.png" class="catalog__product-image">
+                        <img src="img/Group 49.svg" class="catalog__product-stars">
+                        <span class="catalog__product-name">Корм для собак Grandorf для мелких пород</span>
+                        <span class="catalog__product-price">1050 ₽</span>
+                        <form class="catalog__product-weight">
+                            <div class="catalog__product-weight-btn"><input type="radio" name="weight" value="a1" id="a1-1" checked><label for="a1-1">800 г</label></div><Br>
+                            <div class="catalog__product-weight-btn"><input type="radio" name="weight" value="a2" id="a2-1"><label for="a2-1">3 кг</label></div>
+                            <Br>
+                                <div class="catalog__product-weight-btn">
+                            <input type="radio" name="weight" value="a3" id="a3-1"><label for="a3-1">10 кг</label>
+                        </div>
+                    </form>
+                            <div class="catalog__product-row">
+                                <div class="catalog__product-counter">
+                                    <span class="catalog__product-minus">-</span>
+                                    <input class="catalog__product-input" type="text" value="1" disabled>
+                                    <span class="catalog__product-plus">+</span>
+                                </div>
+                                <button class="catalog__product-cart">В корзину</button>
+                            </div>
+                    </div>
+                    <div class="catalog__product">
+                        <img src="img/Rectangle 14.png" class="catalog__product-image">
+                        <img src="img/Group 49.svg" class="catalog__product-stars">
+                        <span class="catalog__product-name">Корм для собак Grandorf для мелких пород</span>
+                        <span class="catalog__product-price">1050 ₽</span>
+                        <form class="catalog__product-weight">
+                            <div class="catalog__product-weight-btn"><input type="radio" name="weight" value="a1" id="a1-2" checked><label for="a1-2">800 г</label></div><Br>
+                            <div class="catalog__product-weight-btn"><input type="radio" name="weight" value="a2" id="a2-2"><label for="a2-2">3 кг</label></div>
+                            <Br>
+                                <div class="catalog__product-weight-btn">
+                            <input type="radio" name="weight" value="a3" id="a3-2"><label for="a3-2">10 кг</label>
+                        </div>
+                    </form>
+                            <div class="catalog__product-row">
+                                <div class="catalog__product-counter">
+                                    <span class="catalog__product-minus">-</span>
+                                    <input class="catalog__product-input" type="text" value="1" disabled>
+                                    <span class="catalog__product-plus">+</span>
+                                </div>
+                                <button class="catalog__product-cart">В корзину</button>
+                            </div>
+                    </div>
+                    <div class="catalog__product">
+                        <img src="img/Rectangle 14.png" class="catalog__product-image">
+                        <img src="img/Group 49.svg" class="catalog__product-stars">
+                        <span class="catalog__product-name">Корм для собак Grandorf для мелких пород</span>
+                        <span class="catalog__product-price">1050 ₽</span>
+                        <form class="catalog__product-weight">
+                            <div class="catalog__product-weight-btn"><input type="radio" name="weight" value="a1" id="a1-3" checked><label for="a1-3">800 г</label></div><Br>
+                            <div class="catalog__product-weight-btn"><input type="radio" name="weight" value="a2" id="a2-3"><label for="a2-3">3 кг</label></div>
+                            <Br>
+                                <div class="catalog__product-weight-btn">
+                            <input type="radio" name="weight" value="a3" id="a3-3"><label for="a3-3">10 кг</label>
+                        </div>
+                    </form>
+                            <div class="catalog__product-row">
+                                <div class="catalog__product-counter">
+                                    <span class="catalog__product-minus">-</span>
+                                    <input class="catalog__product-input" type="text" value="1" disabled>
+                                    <span class="catalog__product-plus">+</span>
+                                </div>
+                                <button class="catalog__product-cart">В корзину</button>
+                            </div>
+                    </div>
+                    <div class="catalog__product">
+                        <img src="img/Rectangle 14.png" class="catalog__product-image">
+                        <img src="img/Group 49.svg" class="catalog__product-stars">
+                        <span class="catalog__product-name">Корм для собак Grandorf для мелких пород</span>
+                        <span class="catalog__product-price">1050 ₽</span>
+                        <form class="catalog__product-weight">
+                            <div class="catalog__product-weight-btn"><input type="radio" name="weight" value="a1" id="a1-4" checked><label for="a1-4">800 г</label></div><Br>
+                            <div class="catalog__product-weight-btn"><input type="radio" name="weight" value="a2" id="a2-4"><label for="a2-4">3 кг</label></div>
+                            <Br>
+                                <div class="catalog__product-weight-btn">
+                            <input type="radio" name="weight" value="a3" id="a3-4"><label for="a3-4">10 кг</label>
+                        </div>
+                    </form>
+                            <div class="catalog__product-row">
+                                <div class="catalog__product-counter">
+                                    <span class="catalog__product-minus">-</span>
+                                    <input class="catalog__product-input" type="text" value="1" disabled>
+                                    <span class="catalog__product-plus">+</span>
+                                </div>
+                                <button class="catalog__product-cart">В корзину</button>
+                            </div>
+                    </div>
+                    <div class="catalog__product">
+                        <img src="img/Rectangle 14.png" class="catalog__product-image">
+                        <img src="img/Group 49.svg" class="catalog__product-stars">
+                        <span class="catalog__product-name">Корм для собак Grandorf для мелких пород</span>
+                        <span class="catalog__product-price">1050 ₽</span>
+                        <form class="catalog__product-weight">
+                            <div class="catalog__product-weight-btn"><input type="radio" name="weight" value="a1" id="a1-5" checked><label for="a1-5">800 г</label></div><Br>
+                            <div class="catalog__product-weight-btn"><input type="radio" name="weight" value="a2" id="a2-5"><label for="a2-5">3 кг</label></div>
+                            <Br>
+                                <div class="catalog__product-weight-btn">
+                            <input type="radio" name="weight" value="a3" id="a3-5"><label for="a3-5">10 кг</label>
+                        </div>
+                    </form>
+                            <div class="catalog__product-row">
+                                <div class="catalog__product-counter">
+                                    <span class="catalog__product-minus">-</span>
+                                    <input class="catalog__product-input" type="text" value="1" disabled>
+                                    <span class="catalog__product-plus">+</span>
+                                </div>
+                                <button class="catalog__product-cart">В корзину</button>
+                            </div>
+                    </div>
+                    <div class="catalog__product">
+                        <img src="img/Rectangle 14.png" class="catalog__product-image">
+                        <img src="img/Group 49.svg" class="catalog__product-stars">
+                        <span class="catalog__product-name">Корм для собак Grandorf для мелких пород</span>
+                        <span class="catalog__product-price">1050<span>₽</span></span>
+                        <form class="catalog__product-weight">
+                            <div class="catalog__product-weight-btn"><input type="radio" name="weight" value="a1" id="a1-6" checked><label for="a1-6">800 г</label></div><Br>
+                            <div class="catalog__product-weight-btn"><input type="radio" name="weight" value="a2" id="a2-6"><label for="a2-6">3 кг</label></div>
+                            <Br>
+                                <div class="catalog__product-weight-btn">
+                            <input type="radio" name="weight" value="a3" id="a3-6"><label for="a3-6">10 кг</label>
+                        </div>
+                    </form>
+                            <div class="catalog__product-row">
+                                <div class="catalog__product-counter">
+                                    <span class="catalog__product-minus">-</span>
+                                    <input class="catalog__product-input" type="text" value="1" disabled>
+                                    <span class="catalog__product-plus">+</span>
+                                </div>
+                                <button class="catalog__product-cart">В корзину</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog__more-products">Показать ещё</div>
+            <ul class="catalog__product-pages">
+                <li><input type="radio" name="pages" value="1" id="1" checked><label for="1" class="catalog__product-page">1</label></li>
+                <li><input type="radio" name="pages" value="2" id="2"><label for="2" class="catalog__product-page">2</label></li>
+                <li><input type="radio" name="pages" value="3" id="3"><label for="3" class="catalog__product-page">3</label></li>
+                <li><input type="radio" name="pages" value="4" id="4"><label for="4" class="catalog__product-page">4</label></li>
+                <li><input type="radio" name="pages" value="5" id="5"><label for="5" class="catalog__product-page">5</label></li>
+            </ul>
+            </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+            <div class="footer__nav">
+                <h3 class="footer__title">Покупателям</h3>
+                <div class="footer__nav-navigation">
+                    <ul>
+                        <li><a href="" class="footer__nav-link">Главная</a></li>
+                         <li><a href="" class="footer__nav-link">Каталог</a></li>
+                         <li><a href="" class="footer__nav-link">Оплата</a></li>
+                         <li><a href="" class="footer__nav-link">Доставка</a></li>
+                         <li><a href="" class="footer__nav-link">Обратная связь</a></li>
+                         <li><a href="contacts.html" class="footer__nav-link">Адреса магазинов</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__catalog">
+                <h3 class="footer__title">Каталог</h3>
+                <div class="footer__catalog-categories">
+                    <ul>
+                        <li class="footer__catalog-category"><a href="" class="footer__catalog-link">Для кошек</a></li>
+                        <li class="footer__catalog-category"><a href="" class="footer__catalog-link">Для собак</a></li>
+                        <li class="footer__catalog-category"><a href="" class="footer__catalog-link">Ветаптека</a></li>
+                        <li class="footer__catalog-category"><a href="" class="footer__catalog-link">Для птиц</a></li>
+                        <li class="footer__catalog-category"><a href="" class="footer__catalog-link">Для грызунов</a></li>
+                        <li class="footer__catalog-category"><a href="" class="footer__catalog-link">Аквариумистика</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__follow">
+                <h3 class="footer__title">Следуй за нами</h3>
+                <div class="footer__icons">
+                    <a class="footer__icon"><svg class="footer__icon-image youtube">
+                        <use xlink:href="sprite.svg#youtube"></use>
+                    </svg></a>
+                    <a class="footer__icon second"><svg class="footer__icon-image vk">
+                        <use xlink:href="sprite.svg#vk"></use>
+                    </svg></a>
+                    <a class="footer__icon third"><svg class="footer__icon-image telegram">
+                        <use xlink:href="sprite.svg#telegram"></use>
+                    </svg></a>
+                </div>
+            </div>
+            <div class="footer__questions">
+                <h3 class="footer__title">Контакты</h3>
+            <div class="footer__questions-contacts">
+                <address class="footer__contact-address">Адрес: Санкт-Петербург</address>
+                <div class="footer__contact-telephone">Тел. <a href="tel:8(800)5553535" class="footer__contact-telephone-link">8(800)555 35 35</a></div>
+                <div class="footer__contact-email">E-mail: <a href="mailto:info@luckypaw.ru" class="footer__contact-email-link">info@luckypaw.ru</a></div>
+            </div>
+            <div class="footer__questions-subscribe">
+                <h3 class="footer__title title-subscribe">Подпишись на рассылку</h3>
+                <div class="footer__subscribe">
+                <form method="post" action="" class="footer__subscribe-form">
+                    <input type="email" placeholder="Email" class="footer__email-form">
+                    <br>
+                    <button type="submit" class="footer__subscribe-button">Подписаться</button>
+                </form>
+                </div>
+            </div>
+            </div>
+            </div>
+        </footer>
+    </div>
+    <script src="hamburger.js"></script>
+    <script src="counter.js"></script>
+</body>
+</html>

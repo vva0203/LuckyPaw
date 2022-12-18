@@ -1,0 +1,29 @@
+.slide__logo {
+width: 273px;
+height: 250px;
+padding-top: 37px;
+}
+.main__slider-items {
+    text-align: center;
+}
+.main__slider {
+    background-color: #10c65a;
+    width: 1330px;
+    height: 452px;
+}
+.main__banner {
+    margin-top: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.slide__text-logo {
+    font-family: 'Jua';
+    color: #BCFFBB;
+    font-size: 55px;
+}
+.slide__slogan {
+    margin-top: 16px;
+    font-size: 32px;
+    color: #BCFFBB;
+}

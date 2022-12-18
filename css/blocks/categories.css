@@ -1,0 +1,271 @@
+.categories__category-main {
+    background-color: #ffa440;
+    width: 307px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 60px;
+    padding-top: 71px;
+}
+.vet {
+    padding-top: 49px;
+}
+.categories__category-secondary {
+    background-color: #ffa440;
+    height: 201px;
+    width: 199px;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 36px;
+}
+.categories__list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.categories__category-text {
+    margin-top: 30px;
+    font-size: 30px;
+}
+.categories__category-text-cat {
+    margin-top: 50px;
+    font-size: 30px;
+}
+.categories__category-text-vet {
+    margin-top: 50px;
+    font-size: 30px;
+}
+.categories__category-text-bird {
+    font-size: 30px;
+    margin-top: 15px;
+}
+.catgories__category-text-rat {
+    font-size: 30px;
+}
+.categories__category-text-fish {
+    font-size: 30px;
+    margin-top: 30px;
+}
+.categories__product_category {
+    width: 1000px;
+    margin-left: 300px;
+}
+.pad {
+    margin-top: 150px;
+}
+.pam {
+    margin-top: 40px;
+}
+.categories__product_category {
+    margin-top: 60px;
+}
+.categories__category-main-cat{
+    width: 171px; 
+    height: 130px;
+}
+.categories__category-main-bird {
+    width: 114px; 
+    height: 91px;
+}
+.categories__category-main-dog {
+    width: 154px; 
+    height: 133px;
+}
+.categories__category-main-rat {
+    width: 78px; 
+    height: 103px;
+}
+.categories__category-main-med {
+    width: 148px; 
+    height: 154px;
+}
+.categories__category-main-fish {
+    width: 116px; 
+    height: 62px;
+}
+@media screen and (max-width: 768px) {
+    .categories__category-main{
+        width: 246px;
+        height: 249px;
+        padding-top: 57px;
+    }
+    .categories__category-secondary{
+        width: 200px;
+        height: 200px;
+    }
+    .dog {
+        padding-top: 40px;
+        order: 4;
+        margin-bottom: 80px;
+    }
+    .categories__category-main-cat{
+            width: 137px; 
+            height: 104px;
+    }
+    .categories__category-main-dog {
+            width: 107px; 
+            height: 123px;
+        }
+    .categories__category-main-med {
+            width: 119px; 
+            height: 123px;
+        }
+        .categories__category-main-fish {
+            margin-top: 10px;
+        }
+        .categories__list {
+            height: 950px;
+            margin-left: 50px;
+            justify-content: space-between;
+            
+        }
+        .categories__category-text {
+            margin-top: 30px;
+            font-size: 24px;
+        }
+        .categories__category-text-cat {
+            margin-top: 30px;
+            font-size: 24px;
+        }
+        .categories__category-text-vet {
+            margin-top: 32px;
+            font-size: 24px;
+        }
+        .categories__category-text-bird {
+            font-size: 24px;
+            margin-top: 12px;
+        }
+        .catgories__category-text-rat {
+            font-size: 24px;
+            margin-top: 7px;
+        }
+        .categories__category-text-fish {
+            font-size: 24px;
+            margin-top: 30px;
+        }
+        .categories__product_category {
+            width: 555px;
+            margin-left: 300px;
+        }
+        .vet{
+            padding-top: 39px;
+            order: 3;
+        }
+        .rat {
+            order: 2;
+           margin-bottom: 50px;
+            align-self: center;
+        }
+        .fish {
+            order: 5;
+           align-self:center;
+           margin-bottom: 90px;
+        }
+        .pad {
+            margin-top: 0px;
+        }
+        .pam {
+            margin-top: 0px;
+        }
+        .categories__product_category {
+            margin-left: 0;
+        }
+        .categories {
+            margin-bottom: 10px;
+        }
+    }
+    @media screen and (max-width:480px) {
+        .categories__category-main,.categories__category-secondary {
+            max-width: 190px;
+            max-height: 190px;
+        }
+        .categories__list {
+            flex-direction: column;
+            height: auto;
+            justify-content: space-between;
+            align-items: center;
+           align-items: center;
+           flex-wrap: nowrap;
+           margin-left: 0px;
+        }
+        .rat {
+            align-self:unset;
+            margin-bottom: 0px;
+            padding-top: 30px;
+        }
+        .fish {
+            align-self: unset;
+            margin-bottom: 0px;
+        }
+        .categories__product_category {
+            width: auto;
+            margin-top: 20px;
+        }
+        .dog {
+            margin-bottom: 0px;
+            padding-top: 30px;
+        }
+        .categories__category-main-cat{
+            width: 105px; 
+            height: 80px;
+    }
+    .categories__category-main-dog {
+            width: 82px; 
+            height: 95px;
+        }
+    .categories__category-main-med {
+            width: 92px; 
+            height: 95px;
+        }
+        .categories__category-main-fish {
+            margin-top: 10px;
+            width: 123px;
+            height: 64px;
+        }
+        .categories__category-main-bird {
+         width: 105px;
+         height: 84px;   
+        }
+        .categories__category-main-rat {
+            height: 100px;
+            width: 75px;
+        }
+        .categories__category-text {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .categories__category-text-cat {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .categories__category-text-vet {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .categories__category-text-bird {
+            font-size: 18px;
+            margin-top: 15px;
+        }
+        .catgories__category-text-rat {
+            font-size: 18px;
+        }
+        .categories__category-text-fish {
+            font-size: 18px;
+            margin-top: 30px;
+        }
+        .cat {
+            padding-top: 40px;
+        }
+        .vet {
+            padding-top: 30px;
+        }
+        .cat,.dog,.vet,.bird,.rat {
+           margin-bottom: 25px;
+        }
+        .categories {
+            margin-bottom: 50px;
+        }
+    }

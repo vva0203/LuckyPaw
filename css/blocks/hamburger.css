@@ -1,0 +1,41 @@
+.hamburger {
+    display: none;
+    width: 40px;
+    height: 26px;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 2;
+    margin-top: 40px;
+}
+.hamburger__plank {
+    display: block;
+    background: #BCFFBB;
+    height: 6px;
+    opacity: 1;
+    border-radius: 30px;
+    transition: transform .3s, opacity .3s;
+}
+
+@media screen and (max-width:768px){
+    .hamburger{
+        display: inline-flex;
+    }
+    .hamburger--active .hamburger__plank:nth-child(1) {
+        transform: rotate(45deg) translate(6px, 6px);
+    }
+    .hamburger--active .hamburger__plank:nth-child(2) {
+        transform: rotate(-45deg) translate(1px, -1px);
+    }
+    .hamburger--active .hamburger__plank:nth-child(3) {
+        opacity: 0;
+    }
+}
+@media screen and (max-width:480px) {
+    .hamburger {
+        margin-top: 20px;
+    }
+    .hamburger__plank {
+        height: 5px;
+        width: 35px;
+    }
+}

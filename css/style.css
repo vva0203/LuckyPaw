@@ -1,0 +1,17 @@
+
+@import url('blocks/normalize.css');
+@import url('blocks/base.css');
+@import url('blocks/header.css');
+@import url('blocks/footer.css');
+@import url('blocks/title.css');
+@import url('blocks/feedback.css');
+@import url('blocks/catalog.css');
+@import url('blocks/slider.css');
+@import url('blocks/new-product.css');
+@import url('blocks/categories.css');
+@import url('blocks/brands.css');
+@import url('blocks/about_us.css');
+@import url('blocks/address.css');
+@import url('blocks/itc-slider.css');
+@import url('blocks/hamburger.css');
+@import url('blocks/modal.css');
